@@ -1,0 +1,37 @@
+{
+    "code": 200,
+    "status": "Success",
+    "data":{
+        "count":2,
+        "trades":[
+            {
+                "trade_id":"T01",
+                "asset_class":"Bond",
+                "counterparty":"counterparty01",
+                "instrument_id":"INS01",
+                "instrument_name":"Iname01",
+                "trade_date_time":"2021-04-10",
+                "trade_details": {
+                    "buysellindicator":"BUY",
+                    "price":10.5,
+                    "quantity":10
+                },
+                "trader": "trader01"
+            },
+            {
+                "trade_id":"T02",
+                "asset_class":"Bond",
+                "counterparty":"counterparty02",
+                "instrument_id":"INS02",
+                "instrument_name":"Iname02",
+                "trade_date_time":"2021-04-10",
+                "trade_details": {
+                    "buysellindicator":"BUY",
+                    "price":10.5,
+                    "quantity":10
+                },
+                "trader": "trader01"
+            }
+        ]
+    }
+}
